@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2022_08_13_at_4_23_59_am"
+    android:orientation="vertical"
+    tools:context=".Page3">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Thank you!"
+        android:textColor="#371278"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        app:srcCompat="@drawable/whatsapp_image_2022_08_13_at_4_24_01_am" />
+
+    <TextView
+        android:id="@+id/agentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Costumer Data:"
+        android:textColor="#1B0542"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Name:"
+        android:textColor="#1B0542"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="Best Costumer" />
+
+    <TextView
+        android:id="@+id/ageLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Age"
+        android:textColor="#1B0542" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="00" />
+</LinearLayout>

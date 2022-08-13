@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2022_08_13_at_4_23_59_am"
+    android:orientation="vertical"
+    tools:context="com.example.classwork5.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Welcome"
+        android:textColor="#371278"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/insertPhoto"
+        android:layout_width="187dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="100dp"
+        app:srcCompat="@drawable/whatsapp_image_2022_08_13_at_4_24_01_am" />
+
+
+
+    <TextView
+        android:id="@+id/request"
+        android:layout_width="191dp"
+        android:layout_height="46dp"
+        android:layout_margin="25dp"
+        android:text="Enter the following:"
+        android:textColor="#1B0542"
+        android:textSize="20sp" />
+    android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="130dp"
+        android:text="Next" />
+
+</LinearLayout>
